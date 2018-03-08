@@ -1,0 +1,1 @@
+"use strict";require(["config"],function(){require(["jquery","template","load"],function(i,l){i.getJSON("/mock/list.json",function(t){t={list:t.res_body.data};var e=l("list_template",t);i(".list").html(e)})})});

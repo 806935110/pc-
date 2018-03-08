@@ -1,0 +1,108 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*******************************************/
+.container {
+  width: 1200px;
+  /* property: width */
+  height: 30px;
+  background: #1a2f38;
+  font-family: "宋体";
+}
+.container div {
+  color: #fff;
+  font-size: 12px;
+}
+.container div a {
+  font-size: 14px;
+  font-weight: bold;
+}
+.container div a:hover {
+  text-decoration: underline;
+  color: #f00;
+}
+.container div a:visited {
+  text-decoration: none;
+  color: #fff;
+}
+.container div h1, .container div h2, .container div h3 {
+  margin: 5px;
+}
+
+.box {
+  width: 240px;
+  background: #1a2f38;
+  border-width: 5px;
+  border-color: #ccc;
+  border-style: solid;
+  background-color: #1a2f38;
+  background-image: url("images/xxx.jpg");
+}
+
+.test1 {
+  width: 200px;
+  height: 150px;
+  line-height: 50px;
+  color: #ccc;
+  background: #1a2f38;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.test2, .test3 {
+  width: 200px;
+  height: 150px;
+  line-height: 30px;
+  color: #ccc;
+  background: #1a2f38;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.test3 {
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+.m-0 {
+  margin: 0px;
+}
+
+.m-1 {
+  margin: 1px;
+}
+
+.m-2 {
+  margin: 2px;
+}
+
+.m-3 {
+  margin: 3px;
+}
+
+.m-4 {
+  margin: 4px;
+}
+
+.m-5 {
+  margin: 5px;
+}
+
+.m-6 {
+  margin: 6px;
+}
+
+.m-7 {
+  margin: 7px;
+}
+
+.m-8 {
+  margin: 8px;
+}
+
+.m-9 {
+  margin: 9px;
+}
