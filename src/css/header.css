@@ -1,0 +1,40 @@
+/*
+Error: Invalid GBK character "\xE6"
+        on line 12 of C:\Users\qianfeng\Desktop\hl-h51710\src\sass\header.scss
+
+7:     height:80px;
+8:     width:1260px;
+9:     background:#d60a2e;
+10:     text-align: center;
+11: }
+12: /*注册登录*\/
+13: header .advert{
+14:     height:28px;
+15:     width:1260px;
+16:     background:#f6f6f6;
+17:     line-height: 28px;
+
+Backtrace:
+C:\Users\qianfeng\Desktop\hl-h51710\src\sass\header.scss:12
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1323:in `rescue in block in find_encoding_error'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1320:in `block in find_encoding_error'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each_with_index'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `find_encoding_error'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:896:in `check_sass_encoding'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:423:in `check_encoding!'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:379:in `_to_tree'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+D:/Koala/bin/sass:18:in `load'
+D:/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE6\"\A         on line 12 of C:\Users\qianfeng\Desktop\hl-h51710\src\sass\header.scss\A \A 7:     height:80px;\A 8:     width:1260px;\A 9:     background:#d60a2e;\A 10:     text-align: center;\A 11: }\A 12: /*注册登录*/\A 13: header .advert{\A 14:     height:28px;\A 15:     width:1260px;\A 16:     background:#f6f6f6;\A 17:     line-height: 28px;"; }

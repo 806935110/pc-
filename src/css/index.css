@@ -1,0 +1,74 @@
+@charset "UTF-8";
+.dt {
+  height: 337px;
+  width: 1260px; }
+
+.main {
+  padding-top: 20px;
+  background: #f2f2f2;
+  /*姣忔棩鎺ㄨ崘*/
+  /*姣忔棩鎺ㄨ崘缁撳熬*/ }
+  .main .best {
+    height: 400px;
+    width: 1000px;
+    margin: 0 auto; }
+    .main .best .carousel {
+      height: 400px;
+      width: 700px;
+      border: 1px solid #dddddd;
+      float: left; }
+    .main .best .tuijian {
+      height: 400px;
+      width: 290px;
+      border: 1px solid #dddddd;
+      float: right;
+      background: white; }
+      .main .best .tuijian h3 {
+        height: 41px;
+        border-bottom: 1px solid #dddddd;
+        padding: 7px 15px; }
+      .main .best .tuijian .tuijian_bottom {
+        height: 358px;
+        width: 260px;
+        border: 1px solid;
+        margin-left: 13px; }
+        .main .best .tuijian .tuijian_bottom dl {
+          width: 260px;
+          height: 155px;
+          margin-top: 20px;
+          border-bottom: 1px dotted #dddddd; }
+          .main .best .tuijian .tuijian_bottom dl dt {
+            float: left; }
+          .main .best .tuijian .tuijian_bottom dl dd {
+            width: 130px;
+            height: 115px;
+            float: left;
+            cursor: pointer;
+            margin-left: 10px;
+            line-height: 20px; }
+            .main .best .tuijian .tuijian_bottom dl dd p, .main .best .tuijian .tuijian_bottom dl dd i, .main .best .tuijian .tuijian_bottom dl dd span, .main .best .tuijian .tuijian_bottom dl dd button {
+              display: block; }
+            .main .best .tuijian .tuijian_bottom dl dd i {
+              font-size: 15px;
+              color: red; }
+            .main .best .tuijian .tuijian_bottom dl dd span {
+              color: #cccccc; }
+            .main .best .tuijian .tuijian_bottom dl dd button {
+              margin-top: 5px;
+              height: 25px;
+              width: 90px;
+              background: red;
+              border: none;
+              color: white;
+              border-radius: 4px; }
+  .main .hl_carousel .pages i {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background: #CCCCCC;
+    margin: 5px; }
+  .main .hl_carousel .pages i.current {
+    background: #f00; }
+
+/*# sourceMappingURL=index.css.map */
