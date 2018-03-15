@@ -108,7 +108,7 @@
 		if(this.type==="slide"){
 			$(".imgs").first().children().first().clone().appendTo($(".imgs"));
 		}                                                                                                                                                                                                               
-		console.log($(".imgs").children());
+		// console.log($(".imgs").children());
 //		所有li的样式设置
 		this.lis=$(".imgs li",container).css({
 			width: this.width,

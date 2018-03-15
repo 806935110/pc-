@@ -19,11 +19,13 @@ define(["jquery", "cookie"], function() {
 				}
 			});
 		});
+		
+		$.cookie.json=true;
+		var _products=$.cookie("products");
+		// console.log(_products);
+		$(".cart_sum").text(_products.length);
 
-		// /* 查询是否有登录用户 */
-		// let user = $.cookie("loginUser");
-		// if (user)
-		// 	$(".login_reg").html(`<a href="${user}"></a>`);
+	
 	});
 	// 尾部
 	$("footer").load("/html/include/footer.html", function(){

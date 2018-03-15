@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/*娉ㄥ唽鐧诲綍*/
+.advert {
+  height: 28px;
+  /*width:1260px;*/
+  background: #f6f6f6;
+  line-height: 28px;
+  border-bottom: 2px solid #ccc; }
+
+.advert .login {
+  width: 1000px;
+  margin: 0 auto; }
+
+.advert ul {
+  width: 440px;
+  float: right; }
+
+.advert ul li {
+  float: left;
+  text-align: center; }
+
+.advert ul li a {
+  font-size: 10px;
+  border-right: 1px solid;
+  padding: 0 11px; }
+
+.advert ul li :hover {
+  color: red; }
+
+.advert ul li:nth-child(7) a {
+  border: none; }
+
+/*logo0*/
+.logo {
+  position: relative;
+  height: 200px;
+  width: 1000px;
+  padding: 35px; }
+  .logo .ewm {
+    position: absolute;
+    top: 110px;
+    left: -130px; }
+  .logo p {
+    float: right;
+    margin-top: 30px; }
+    .logo p a {
+      color: blue; }
+
+.box {
+  height: 380px;
+  width: 1000px;
+  border: 2px solid orange;
+  margin: 0 auto; }
+  .box .box_left {
+    height: 300px;
+    width: 650px;
+    float: left; }
+    .box .box_left .form {
+      height: 300px;
+      width: 300px;
+      margin: 0 auto;
+      line-height: 30px;
+      padding: 50px; }
+      .box .box_left .form .tx {
+        height: 40px;
+        width: 300px; }
+      .box .box_left .form button {
+        height: 30px;
+        width: 300px;
+        color: white;
+        background: red;
+        border: none;
+        margin-top: 30px; }
+      .box .box_left .form #error {
+        margin-top: 30px; }
+      .box .box_left .form a {
+        color: blue;
+        float: right; }
+  .box .box_right {
+    height: 380px;
+    width: 300px;
+    background: #ebd365;
+    float: right;
+    text-align: center;
+    padding-top: 100px;
+    line-height: 30px; }
+    .box .box_right button {
+      height: 30px;
+      width: 150px;
+      border-color: orange;
+      background: white;
+      color: orange; }
+    .box .box_right p {
+      margin-top: 20px; }
+
+/*# sourceMappingURL=login.css.map */

@@ -1,0 +1,215 @@
+.advert{
+    height:28px;
+    /*width:1260px;*/
+    background:#f6f6f6;
+    line-height: 28px;
+    border-bottom:2px solid #ccc;
+
+}
+ .advert .login{
+    width:1000px;
+    margin:0 auto;
+}
+ .advert ul{
+    width:440px;
+    float:right;
+}
+ .advert ul li{
+    
+    float:left;
+   
+    text-align: center;
+}
+ .advert ul li a{
+    font-size: 10px;
+    border-right:1px solid;
+    padding:0 11px;
+}
+ .advert ul li :hover{
+    color:red;
+}
+ .advert ul li:nth-child(7) a{
+    border:none;
+}
+
+/*logo0*/
+.logo{
+	
+	position: relative;
+    height:200px;
+    width:1000px;
+    padding:35px;
+    
+    p{
+        float:right;
+        margin-top:30px;
+        a{
+            color:blue;
+        }
+    }
+}
+/*购物商品*/
+.main{
+    .ss{
+        display: none;
+    }
+     .kong{
+    height:300px;
+    width:1000px;
+    border:1px solid #ddd;
+    text-align: center;
+    padding-top:100px;
+    background:url(/images/kong.jpg) no-repeat 210px 55px;
+
+    p{
+        font-size: 24px; 
+        color:#ccc;
+        margin-bottom:5px;
+        a{
+            color:blue;
+        }
+    }
+    span{
+        color:#ccc;
+    }
+    .dl{
+        display: inline-block;
+        background:red;
+        height:20px;
+        width:60px;
+        color:white;
+        line-height: 20px;
+    }
+   }
+    width:1000px;
+    height:auto;
+    /*border:1px solid #dddddd;*/
+    margin:30px auto;
+    margin-bottom:50px;
+
+    .cart{
+
+        .header{
+            border:1px solid #dddddd;
+            height:auto;
+            background:white;
+            display: flex;
+            align-items: center;
+            padding-left:50px;
+            .title{
+                width:100px;
+                margin-left:50px;
+            }
+            .img{
+                img{
+                    height:100px;
+                    width:100px;
+                    margin-left:90px;
+                }
+            }
+            .price{
+                margin-left:70px;
+            }
+            .amount{
+                margin-left:130px;
+                .amount_input{
+                    width:20px;
+                    float:left;
+                    height:20px;
+                }
+                .add{
+                    display: inline-block;
+                    height:20px;
+                    width:15px;
+                    background:#ddd;
+                    float:left;
+                    cursor: pointer;
+                    text-align: center;
+
+                }
+                .minus{
+                    display: inline-block;
+                    height:20px;
+                    width:15px;
+                    background:#ddd;
+                    float:left;
+                    cursor: pointer;
+                    text-align: center;
+                }
+            }
+            .sub{
+                margin-left:100px;
+            }
+            .oper{
+                margin-left:110px;
+            }
+        }
+    }
+    .header1{
+        width:1000px;
+        height:30px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background:#dddddd;
+        
+       
+        .quanxuan,.img,.title,.price,.amount,.sub,.oper{
+        }
+    }
+    .zong{
+        height:192px;
+        width:1000px;
+        border:1px solid #ddd;
+        margin-top:10px;
+        .top{
+            height:100px;
+            width:200px;
+            margin:20px 700px;
+            div{
+                margin-top:8px;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                .aa{
+                    margin-left:58px;
+                }
+            }
+            .c{
+                p{
+                    font-size: 20px;
+                    color:red;
+                    span{
+                        font-size: 20px;
+                        color:red;
+                    }
+                }
+                .aa{
+                    font-size: 12px;
+                    color:black;
+                }
+                
+            }
+        }
+        .bottom{
+            background:#dddddd;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            .d{
+                padding:10px;
+                span{
+                    margin-left:5px;
+                }
+            }
+            button{
+                height:50px;
+                width:150px;
+                background:red;
+                border:none;
+                color:white;
+            }
+        }
+    }
+  
+}

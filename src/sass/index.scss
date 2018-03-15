@@ -5,6 +5,7 @@
 .main{
 	padding-top:20px;
 	background:#f2f2f2;
+
 	/*每日推荐*/
 	.best{
 		
@@ -31,7 +32,7 @@
 			.tuijian_bottom{
 				height:358px;
 				width:260px;
-				border:1px solid;
+				
 				margin-left:13px;
 				dl{
 					width:260px;
@@ -60,6 +61,7 @@
 							border:none;
 							color:white;
 							border-radius: 4px;
+							cursor: pointer;
 						}
 						width:130px;
 						height:115px;
@@ -69,9 +71,41 @@
 						line-height: 20px;
 					}
 				}
+				.yugao{
+					
+					height:145px;
+					.sp{
+						padding-left:5px;
+						
+					}
+					span{
+						display: block;
+						height:15px;
+						padding-top:10px;
+						float:left;
+					}
+					.yugao_1{
+						margin:20px 4px;
+					}
+				}
+				.tp{
+
+					img{
+						margin-left:20px;
+
+
+					}
+					img:hover{
+						border-bottom:1px solid;
+					}
+					
+				}
+
 			}
 		}
+
 	}
+
 	.hl_carousel .pages i {
 				display: inline-block;
 				width:20px;
@@ -80,11 +114,107 @@
 				background: #CCCCCC;
 				margin:5px;
 
+				}
+	.hl_carousel .pages i.current {
+					background: #f00;
+				}
+	/*每日推荐结尾*/
+	
+
+	/*chuxiao开头*/
+	.chuxiao{
+				
+				margin-top:50px;
+				position: relative;
+
+				.bt{
+					position: absolute;
+					top:-30px;
+					left:515px;
+				}
+				.chuxiaotp{
+					border-top:3px solid;
+					width:1000px;
+					height:950px;
+					padding-top:50px;
+					margin:0 auto;
+					img{
+						margin:5px 3px;
+					}
+				}
+
 			}
-.hl_carousel .pages i.current {
-				background: #f00;
+	/*jianhuo开头*/
+	.jianhuo{
+			position: relative;
+			.bt-1{
+				position: absolute;
+				top:-30px;
+				left:515px;
 			}
-/*每日推荐结尾*/
+			.jianhuotp{
+				height:14500px;
+				width:1000px;
+				border-top:3px solid;
+				margin:0 auto;
+				padding-top:50px;
+
+				.list{
+					display: flex;
+					justify-content: space-around;
+					align-items: center;
+					flex-wrap: wrap;
+					height:14430px;
+					width:1000px;
+					.shangping:hover{
+						border-color:red;
+					}
+					.shangping{
+						cursor: pointer;
+						height:455px;
+						width:320px;
+						border:1px solid #dddddd;
+						background:white;
+						img{
+							height:318px;
+							width:314px;
+						}
+						h5:hover{
+							text-decoration: underline;
+						}
+						h5{
+							height:55px;
+							
+							font-size: 15px;
+							line-height: 55px;
+							padding-left:15px;
+						}
+						p{
+							color:red;
+							padding:15px;
+						}
+						.jiage{
+							padding-left:15px;
+							height:35px;
+							line-height: 35px;
+							h3{
+								float:left;
+								font-size: 20px;
+							}
+							span{
+								float:right;
+								padding-right:20px;
+								i{
+									color:red;
+									font-style: normal;
+								}
+							}
+						
+					}
+					}
+				}
+			}
+	}
 }
 
 

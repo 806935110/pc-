@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<script src="/lib/requirejs/require.js" data-main="/js/cart"> </script>
+	<link rel="stylesheet" href="/css/cart.css">
+	<link rel="stylesheet" type="text/css" href="/css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/footer.css"/>
+
+</head>
+<body>
+	<!-- 头部 -->
+	<!-- 注册、登录 -->
+	<div class="advert">
+		<div class="login">
+			<ul>
+				<li><a href="/html/register.html">注册</a></li>
+				<li><a href="/html/login.html">登录</a></li>
+				<li><a href="#">我的订单</a></li>
+				<li><a href="#">我的关注</a></li>
+				<li><a href="#">资讯</a></li>
+				<li><a href="#">品牌馆</a></li>
+				<li><a href="#">手机优品恵</a></li>
+				
+			</ul>
+		</div>
+	</div>
+	<div class="logo">
+		<a href="/index.html"><img src="/images/logo.jpg"></a>
+
+	</div>	
+	<div class="main">
+		<div class="ss">
+			<div class="header1">
+				<div class="quanxuan1"><input type="checkbox" name="" class="qx">全选</div>
+				<div class="img1">图片</div>
+				<div class="title1">商品名</div>
+				<div class="price1">单价(元)</div>
+				<div class="amount1">数量(个)</div>
+				<div class="sub1">小计(元)</div>
+				<div class="oper1">操作</div>
+			</div>
+			<div class="cart">
+				
+				<div class="header">
+				<div class="id" style="display: none"></div>
+				<div class="quanxuan"><input type="checkbox" name=""></div>
+				<div class="img"><img src=""></div>
+				<div class="title">商品名</div>
+				<div class="price">单价(元)</div>
+				<div class="amount">1</div>
+				<div class="sub">小计(元)</div>
+				<div class="oper">删除</div>
+			</div>
+			</div>
+			
+			<div class="zong">
+				<div class="top">
+					<div class="a">
+						<p>共<span id="jianshu">0</span>件商品  商品金额：</p>
+						<p>￥<span id="hj">0</span></p>
+					</div>
+					<div class="b">
+						<p class="aa">优惠金额：</p>
+						<p>-￥<span>0</span></p>
+					</div>
+					<div class="c">
+						<p class="aa">实付金额：</p>
+						<p>￥<span>0</span></p>
+					</div>
+
+				</div>
+				<div class="bottom">
+					<div class="d">
+						<input type="checkbox" name="" class="qx"><span>全选</span>
+					<span>删除</span>
+					</div>
+					
+					<button>立即结算</button>
+				</div>	
+			</div>
+		</div>
+			<div class="kong">
+				<p>购物车空空的哟~<a href="/index.html">去挑选商品</a></p>
+				<span>登录后可以显示之前加入的商品</span><a class="dl" href="/html/login.html">登录</a>
+			</div>
+	</div>
+	<footer></footer>
+</body>
+</html>

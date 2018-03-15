@@ -8,9 +8,9 @@
 	<script src="../js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script> -->
 	<!-- <script src="lib/jquery/jquery-1.12.4min.js"></script> -->
 	<link rel="stylesheet" href="/css/index.css">
-	<link rel="stylesheet" type="text/css" href="css/common.css"/>
-	<link rel="stylesheet" type="text/css" href="css/header.css"/>
-	<link rel="stylesheet" type="text/css" href="css/footer.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/header.css"/>
+	<link rel="stylesheet" type="text/css" href="/css/footer.css"/>
 </head>
 <body>
 	<!-- 头部 -->
@@ -35,24 +35,70 @@
 							</dd>
 						</dl>
 						<div class="yugao">
-							<span style="color:red">24小时</span>
-							<span>直播预告</span>
+							<span style="color:red" class="sp">24小时</span>
+							<span>直播预告</span><br/>
 							<div class="yugao_1">
-								<img src="images/yugao-1.jpg">
-								<img src="images/yugao-2.jpg">
-								<img src="images/yugao-3.jpg">
+								<a href="#"><img src="images/yugao-1.jpg"></a>								
+								<a href="#"><img src="images/yugao-2.jpg"></a>								
+								<a href="#"><img src="images/yugao-3.jpg"></a>							
 							</div>
 						</div>
-						<div class="tb">
-								<img src="images/tb-1.jpg">
-								<img src="images/tb-2.jpg">
-								<img src="images/tb-3.jpg">
-
-						</div>
+						<div class="tp">
+								<a href="#"><img src="images/tb-1.jpg"></a>					
+								<a href="#"><img src="images/tb-2.jpg"></a>					
+								<a href="#"><img src="images/tb-3.jpg"></a>				
+							</div>
 					</div>
 			</div>
 		</div>
+		<!-- chuxiao开头 -->
+		<div class="chuxiao">
+			<img class="bt" src="images/chuxiao.jpg">
+			<div class="chuxiaotp">
+					<a href="#"><img src="images/chuxiao1.jpg"></a>
+					<a href="#"><img src="images/chuxiao2.jpg"></a>
+					<a href="#"><img src="images/chuxiao3.jpg"></a>
+					<a href="#"><img src="images/chuxiao4.jpg"></a>
+					<a href="#"><img src="images/chuxiao5.jpg"></a>
+					<a href="#"><img src="images/chuxiao6.jpg"></a>
+			</div>
+		</div>
+		
+		<!-- jianhuo开头 -->
+		<div class="jianhuo">
+			<img class="bt-1" src="images/biaoti1.jpg">
+			<div class="jianhuotp">
+				<!-- <div class="shangping"> -->
+					
+							<!-- <a href="#"><img src="images/jianhuo.jpg"></a>
+						
+						
+							<h5>美国西屋 破壁机</h5>
+							<p>不需要提前浸泡豆子，也能让豆子研磨至细滑的感</p>
+							<div class="jiage">
+								<h3>￥1499</h3><span><i>6937人</i>已购买</span>
+							</div> -->
+							<div class="list"></div>
+								<script type="text/html" id="list_template">
+									{{each list as prod}}
+										<div class="shangping">
+											<div class="id" style="display: none;">{{prod.id}}</div>
+											<a target="_blank" href="/html/detail.html"><img src="{{prod.img}}"></a>
+											<h5><a target="_blank" href="/html/detail.html">{{prod.title}}</a></h5>
+											<p>{{prod.shuoming}}</p>
+											￥<div class="jiage"><h3>{{prod.price}}</h3><span><i>{{prod.renshu}}人</i>已购买</span></div>
+										</div>
+									{{/each}}
+								</script>
+								
+							
+				<!-- </div> -->
 
+					
+					
+					
+			</div>
+		</div>
 	</div>
 	<!-- <div class="main">
 		<h1>商品列表信息</h1>

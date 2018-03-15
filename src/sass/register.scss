@@ -1,0 +1,147 @@
+/*注册登录*/
+ .advert{
+    height:28px;
+    /*width:1260px;*/
+    background:#f6f6f6;
+    line-height: 28px;
+    border-bottom:2px solid #ccc;
+
+}
+ .advert .login{
+    width:1000px;
+    margin:0 auto;
+}
+ .advert ul{
+    width:440px;
+    float:right;
+}
+ .advert ul li{
+    
+    float:left;
+   
+    text-align: center;
+}
+ .advert ul li a{
+    font-size: 10px;
+    border-right:1px solid;
+    padding:0 11px;
+}
+ .advert ul li :hover{
+    color:red;
+}
+ .advert ul li:nth-child(7) a{
+    border:none;
+}
+
+/*logo0*/
+.logo{
+    height:200px;
+    width:1000px;
+    position: relative;
+    padding:35px;
+     .ewm{
+     position: absolute;
+     top:110px;
+     left:-130px;
+        }
+    p{
+        float:right;
+        margin-top:30px;
+        a{
+            color:blue;
+        }
+    }
+}
+.bt{
+    width:1000px;
+    height:40px;
+    margin:0 auto;
+    margin-top:20px;
+    button{
+        height:40px;
+        width:200px;
+        font-size:15px;
+        background:orange;
+        border:none;
+    }
+}
+form{
+    height:500px;
+    width:1000px;
+    border:1px solid orange;
+    margin:0 auto;
+    margin-bottom:50px;
+    .sj1{
+        margin-top:50px;
+    }
+    .a{
+        border:1px solid;
+        .yzm{
+            margin-right:200px;
+        }
+        .kbq{
+            float:right;
+            display: block;
+            height:30px;
+            width:100px;
+            border:1px solid;
+        }
+    }
+     .email_info{
+           padding-left:230px;
+            
+        }
+    #error{
+        display: none;
+    }
+    div{
+        margin-left:80px;
+        height:40px;
+        width:500px;
+       
+        line-height: 35px;
+        text-align: right;
+        margin-top:15px;
+
+        .in{
+            height:35px;
+            width:350px;
+        }
+        #in1{
+            height:35px;
+            width:170px;
+        }
+        
+        button{
+            margin-right:82px;
+            margin-left:10px;
+        }
+        span{
+            margin-right:20px;
+        }
+
+    }
+     .checkx{
+        margin-left:230px;
+
+    }
+    label{
+        a{
+            color:blue;
+        }
+    
+    }
+    .tj{
+        height:30px;
+        width:150px;
+        background:red;
+        border:none;
+        margin:30px  230px;
+    }
+    p{
+        margin-left:210px;
+        a{
+            color:blue;
+        }
+    }
+}

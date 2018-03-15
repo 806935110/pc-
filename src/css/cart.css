@@ -1,0 +1,41 @@
+/*
+Error: Invalid GBK character "\xE8"
+        on line 51 of C:\Users\qianfeng\Desktop\hl-h51710\src\sass\cart.scss
+
+46:         a{
+47:             color:blue;
+48:         }
+49:     }
+50: }
+51: /*购物商品*\/
+52: .main{
+53:     .ss{
+54:         display: none;
+55:     }
+56:      .kong{
+
+Backtrace:
+C:\Users\qianfeng\Desktop\hl-h51710\src\sass\cart.scss:51
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1323:in `rescue in block in find_encoding_error'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1320:in `block in find_encoding_error'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `each_with_index'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:1319:in `find_encoding_error'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:902:in `rescue in check_sass_encoding'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/util.rb:898:in `check_sass_encoding'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:423:in `check_encoding!'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:379:in `_to_tree'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+D:/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+D:/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+D:/Koala/bin/sass:18:in `load'
+D:/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid GBK character \"\xE8\"\A         on line 51 of C:\Users\qianfeng\Desktop\hl-h51710\src\sass\cart.scss\A \A 46:         a{\A 47:             color:blue;\A 48:         }\A 49:     }\A 50: }\A 51: /*购物商品*/\A 52: .main{\A 53:     .ss{\A 54:         display: none;\A 55:     }\A 56:      .kong{"; }
