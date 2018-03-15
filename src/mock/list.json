@@ -82,7 +82,7 @@
 			{"id":77, "title":"同仁堂安心海参限量抢购组·30g*90头", "shuoming":"", "price": 230, "img":"/images/jianhuo78.jpg","renshu":6937},
 			{"id":78, "title":"商品1", "shuoming":"", "price": 185, "img":"/images/jianhuo79.jpg","renshu":6852},
 			{"id":79, "title":"晓芹海参健康滋补特惠组", "shuoming":"", "price": 126, "img":"/images/jianhuo80.jpg","renshu":6937},
-			{"id":80, "title":"尚品尚道正宗新会小青柑茶超值套组", "shuoming":"", "price": 950, "img":"images/jianhuo81.jpg","renshu":67},
+			{"id":80, "title":"尚品尚道正宗新会小青柑茶超值套组", "shuoming":"", "price": 950, "img":"/images/jianhuo81.jpg","renshu":67},
 			{"id":81, "title":"商品1", "shuoming":"", "price": 560, "img":"/images/jianhuo82.jpg","renshu":6657},
 			{"id":82, "title":"商品1", "shuoming":"", "price": 552, "img":"/images/jianhuo83.jpg","renshu":646},
 			{"id":83, "title":"商同仁堂安心海参限量抢购组·30g*90头", "shuoming":"", "price": 150, "img":"/images/jianhuo84.jpg","renshu":6985},
@@ -91,8 +91,9 @@
 			{"id":86, "title":"商品1", "shuoming":"", "price": 560, "img":"/images/jianhuo87.jpg","renshu":5637},
 			{"id":87, "title":"尚品尚道正宗新会小青柑茶超值套组", "shuoming":"", "price": 456, "img":"/images/jianhuo88.jpg","renshu":6937},
 			{"id":88, "title":"商同仁堂安心海参限量抢购组·30g*90头1", "shuoming":"", "price": 520, "img":"/images/jianhuo89.jpg","renshu":567},
+			{"id":89, "title":"商同仁堂安心海参限量抢购组·30g*90头", "shuoming":"", "price": 150, "img":"/images/jianhuo84.jpg","renshu":6985},
 			{"id":90, "title":"尚品尚道正宗新会小青柑茶超值套组", "shuoming":"", "price": 620, "img":"/images/jianhuo11.jpg","renshu":650}
-	
+			
 			
 		]
 	}

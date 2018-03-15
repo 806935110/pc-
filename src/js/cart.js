@@ -68,6 +68,10 @@ require(["config"], function(){
 			}
 		});
 
+		$(".qbsc").click(function(){
+				$(".header").remove();
+				// $.removecookie(products);
+		});
 		// 商品加减
 		$(".amount").delegate(".add","click",function(){
 			let _id=Number($(this).parents(".header").children(".id").text());

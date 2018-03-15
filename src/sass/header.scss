@@ -21,6 +21,25 @@ header .advert{
 header .advert .login{
     width:1000px;
     margin:0 auto;
+    .yh{
+        width:500px;
+        height:25px;
+        float:left;
+        .ydl{
+            span{
+                color:blue;
+            }
+            i{
+                color:red;
+                cursor: pointer;
+            }
+        }
+        .wdl{
+            a{
+                color:blue;
+            }
+        }
+    }
 }
 header .advert ul{
     width:440px;
@@ -48,6 +67,7 @@ header .advert ul li:nth-child(7) a{
     height:105px;
     width:1000px;
     margin:0 auto;
+
 }
 /*logo*/
 .logo .left{
@@ -69,6 +89,7 @@ header .advert ul li:nth-child(7) a{
     width:300px;
     float: left;
     border:2px solid red;
+    outline: 0;
 }
 .logo .center .search{
     height:41px;
@@ -135,4 +156,14 @@ header .advert ul li:nth-child(7) a{
     text-align: center;
     line-height: 40px;
     background:url(../images/1.jpg) no-repeat 15px 12px;
+}
+.center .suggest{
+    height:auto;
+    width:300px;
+    background:white;
+    border:1px solid #dddddd;
+    position: absolute;
+    top:168px;
+    display: none;
+    line-height: 20px;
 }

@@ -157,7 +157,18 @@ require(["config"], function(){
 								$.cookie("products",_cookie,{expires: 7, path: "/"});
 
 								// 跳转到购物车
-								location = "/html/cart.html";
+								// location = "/html/cart.html";
+								// 购物车商品数量
+								$.cookie.json=true;
+								var _products=$.cookie("products");
+								var _login=$.cookie("loginUser");
+								// console.log(_login);
+								if(_products)
+								$(".cart_sum").text(_products.length);
+								else
+								$(".cart_sum").text(0);
+								location.reload(); 
+								// alert("加入成功");
 								return false;
 			});
 

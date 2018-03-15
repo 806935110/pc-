@@ -21,6 +21,24 @@ require(["config"], function(){
 				$.cookie("shangping", prod, {path:"/"});
 
 			});
+		$("dl").click(function(){
+			var prod={
+					id:$(this).children(".id").text(),
+					img:$(this).children("dt").children("a").children("img").attr("src"),
+					title:$(this).children("dd").children("p").text(),
+					price:$(this).children("dd").children("i").text()
+				}
+				// console.log(prod);
+				$.cookie.json=true;
+				$.cookie("shangping", prod, {path:"/"});
+				location="/html/detail.html"
+		});
+
+		$(".ccc").click(function(){
+			location="/html/list.html"
+		});
+
+
 		// 轮播图
 		$(".carousel").carousel({
 					imgs:[

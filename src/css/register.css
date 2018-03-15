@@ -107,7 +107,9 @@ form {
     width: 150px;
     background: red;
     border: none;
-    margin: 30px  230px; }
+    margin: 30px  230px;
+    font-size: 15px;
+    color: white; }
   form p {
     margin-left: 210px; }
     form p a {

@@ -1,0 +1,58 @@
+
+			.main{
+				.list{
+					display: flex;
+					justify-content: space-around;
+					align-items: center;
+					flex-wrap: wrap;
+					height:14430px;
+					width:1000px;
+					margin:0 auto;
+					.shangping:hover{
+						border-color:red;
+					}
+					.shangping{
+						cursor: pointer;
+						height:455px;
+						width:320px;
+						border:1px solid #dddddd;
+						background:white;
+						img{
+							height:318px;
+							width:314px;
+						}
+						h5:hover{
+							text-decoration: underline;
+						}
+						h5{
+							height:55px;
+							
+							font-size: 15px;
+							line-height: 55px;
+							padding-left:15px;
+						}
+						p{
+							color:red;
+							padding:15px;
+						}
+						.jiage{
+							padding-left:15px;
+							height:35px;
+							line-height: 35px;
+							h3{
+								float:left;
+								font-size: 20px;
+							}
+							span{
+								float:right;
+								padding-right:20px;
+								i{
+									color:red;
+									font-style: normal;
+								}
+							}
+						}
+					}
+					}
+				}
+				
